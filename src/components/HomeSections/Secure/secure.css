@@ -1,0 +1,45 @@
+.secure {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.secure-content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 1230px;
+  overflow-x: auto;
+}
+
+.secure-feature {
+  flex: 0 0 calc(25% - 20px);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.secure-feature:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.secure-feature svg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.secure-trans__name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.secure-trans__desc {
+  font-size: 14px;
+  color: #666;
+}

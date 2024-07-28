@@ -1,0 +1,38 @@
+.footerbg {
+  background-color: #0f0c29;
+}
+
+.footer-brand {
+  color: #716c6c;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.footer-brand:hover {
+  color: #d6d2d2;
+  text-decoration: none;
+}
+
+.social-icons-footer .icon {
+  font-size: 24px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.social-icons-footer .icon:hover {
+  color: #d6d2d2;
+}
+
+.form-control {
+  border-color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #1E90FF;
+  border-color: #1E90FF;
+}
+
+.btn-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}

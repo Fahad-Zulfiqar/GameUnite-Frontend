@@ -1,0 +1,36 @@
+.method-container {
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90vw;
+}
+
+.method-container h2 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.method-img-container {
+  padding: 10px;
+}
+
+.method-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.method-img:hover {
+  transform: scale(1.03);
+}

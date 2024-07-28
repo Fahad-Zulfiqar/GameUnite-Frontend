@@ -1,0 +1,27 @@
+.card {
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons {
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.icon:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+.card-email:hover {
+  border-bottom: 1px solid #000000; /* Change the color to your preferred color */
+  cursor: pointer;
+  display: inline-block;
+}

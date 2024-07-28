@@ -1,0 +1,58 @@
+.slider__section {
+  background-image: url(../../../assets/bgimg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.slider__head {
+  margin-left: 8%;
+  text-align: left;
+}
+
+.slider__section .heading h1 {
+  font-size: 28px;
+}
+
+.slider__section .heading p {
+  color:  #e0dfe6;
+}
+
+.heading__btn {
+  padding: 10px 20px;
+  background-color: #5a5c5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 300;
+  margin: 4px;
+  transition: background-color 0.3s;
+}
+
+.heading__btn:hover {
+  background-color: #06032c;
+}
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slider__section .heading h1,
+.slider__section .heading p {
+  animation: slideIn 2s ease-out forwards;
+}

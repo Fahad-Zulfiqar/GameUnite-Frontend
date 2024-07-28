@@ -1,0 +1,95 @@
+.trending-container {
+  width: 90vw;
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  background-color: #0f0c29;
+  border-radius: 10px;
+}
+
+.trending-head {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.trending-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.trending-game {
+  width: 30%; 
+  margin: 10px 0; 
+  position: relative;
+}
+
+.trending-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.trending-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.trending-image:hover {
+  transform: scale(1.03);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(15, 12, 41, 0.8);
+}
+
+.details-button {
+  color: #ffffff;
+  background-color: #380808;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: #f8f6f6;
+  color: black;
+}
+
+.more-items {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.more-items-button {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #050220;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.more-items-button:hover {
+  background-color: #f8f6f6;
+  color: black;
+}

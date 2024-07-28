@@ -1,0 +1,46 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*========== FONT WEIGHTS ==========*/
+:root {
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  --basic-color: #FBFADA;
+  --mid-color: #436850;
+  --dark-color: #12372A;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: var(--font-normal);
+  line-height: 1.6; 
+  color: var(--basic-color); 
+}
+
+
+
+
+
+

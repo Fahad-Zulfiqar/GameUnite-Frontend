@@ -1,0 +1,63 @@
+:root {
+  --background-color: #fbf7f4;
+  --panel-color: #ffffff;
+  --action-panel-color: #ebe9e5;
+
+  --text-color: #1b221f;
+
+  --form-element-border-color: #d7d5cd;
+  --form-element-placeholder-color: #aaa9a4;
+
+  --highlight-color: #397557;
+  --focus-color: #3fa178;
+  --inactive-color: #999999;
+
+  --box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+div.eth-name {
+  /* flex-direction: row-reverse; */
+  text-align: right;
+}
+
+button {
+  appearance: none;
+  background-color: var(--highlight-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-variation-settings: "wght" 700;
+  padding: 8px 16px;
+  transition: background-color 0.25s;
+}
+
+div.eth-name {
+  font-size: 16px;
+  font-variation-settings: "wght" 600;
+  letter-spacing: -0.011em;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+div.eth-name div.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--highlight-color);
+  padding: 2px;
+  transition: border-color 0.25s;
+}
+
+div.eth-name:hover div.icon {
+  border: 2px solid var(--focus-color);
+}
+
+div.eth-name div.name span {
+  line-height: 1.25;
+}

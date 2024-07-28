@@ -1,0 +1,34 @@
+.card {
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.social-icons {
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.icon:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+/* Add this CSS to your existing stylesheet or component */
+.hover-zoom:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  color: rgb(241, 137, 0); /* Change to the desired text color on hover */
+}
+
+.Bg {
+  background-color: rgba(81, 71, 172, 0.8);
+}
+
+.p {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/* .contform {
+  background: #000000;
+} */
