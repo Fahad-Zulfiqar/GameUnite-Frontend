@@ -1,5 +1,5 @@
 export const BASE_URL =
-  process.env.NODE_ENV === "development" ? "http://localhost:5000" : "";
+  process.env.NODE_ENV === "development" ? "https://game-unite-backend.koyeb.app" : "";
 
 // export const DATA_JSON_URL = "./products.js";
 

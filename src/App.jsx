@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollTop";
 
 const App = () => {
+  // console.log(process.env.NODE_ENV);
   return (
     <>
       <Header />
